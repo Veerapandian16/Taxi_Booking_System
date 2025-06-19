@@ -1,56 +1,46 @@
-🚖 Taxi Booking System in LPU
-A Python-based desktop application for managing taxi bookings within Lovely Professional University (LPU). Built using Tkinter for the GUI and SQLite3 for the database, this system offers a simple and effective solution for booking and managing campus rides.
+# 🚖 Taxi Booking System in LPU
 
-📋 Overview
-The Taxi Booking System provides:
+A desktop-based **Taxi Booking System** designed for **Lovely Professional University (LPU)** using **Python, Tkinter**, and **SQLite3**. This system allows users to create accounts, log in securely, and book taxi rides between various campus locations. It calculates fare based on distance, car type, journey type, and other selected options.
 
-A login and registration system for users
+---
 
-A fare calculator based on route, car type, and optional services
+## 📌 Features
 
-A receipt generator with complete booking details
+- ✅ **Login & Registration System** (with SQLite)
+- ✅ **GUI-based Interface** using `Tkinter`
+- ✅ **Distance Calculation** between LPU locations
+- ✅ **Car Type Selection** – Standard, Prime Sedan, Premium Sedan
+- ✅ **Journey Type Options** – Single, Return, Special Needs
+- ✅ **Fare Calculation** with Base Tax, Insurance, Luggage
+- ✅ **Receipt Generation**
+- ✅ **Reset and Exit Functionalities**
 
-An intuitive and user-friendly interface
+---
 
-✨ Features
-🔐 User Authentication
-Secure login and registration system
+## 🎯 Functional Modules
 
-SQLite database to store user credentials
+### 🔐 User Authentication
+- Register with a new username and password
+- Login securely using SQLite3 for credential storage
 
-Password input masking for security
+### 📋 Booking Options
+- Select pickup & drop location (CampusCafe, BoysHostel, GirlsHostel, AdmissionBlock)
+- Choose journey type & car type
+- Enable options like:
+  - Travelling Insurance
+  - Extra Luggage
+  - Base Taxi Tax
 
-🚕 Taxi Booking
-Pickup/drop-off locations: CampusCafe, BoysHostel, GirlsHostel, AdmissionBlock, etc.
+### 💵 Cost Computation
+- Calculates:
+  - Distance-based fare
+  - Tax (9%)
+  - Travel insurance and luggage cost
+- Total cost is displayed in real-time
 
-Car types: Standard, PrimeSedan, PremiumSedan
+### 🧾 Receipt
+- Generates a formatted receipt with user and trip details
+- Two-pane design: label and corresponding value
 
-Journey types: Single, Return, SpecialNeeds
-
-Optional services: Taxi Tax, Travel Insurance, Extra Luggage
-
-Fare calculation based on distance, car type, and services
-
-🧾 Receipt Generation
-Auto-generates a detailed receipt with:
-
-Booking details
-
-Customer information
-
-Cost breakdown
-
-🔄 Reset and Exit
-Reset form fields to start over
-
-Exit confirmation before closing the app
-
-🛠️ Prerequisites
-Ensure you have the following installed:
-
-Python 3.x (tested with Python 3.8+)
-
-Tkinter (included with Python)
-
-SQLite3 (included with Python)
+---
 
