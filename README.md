@@ -1,6 +1,6 @@
-# 🚖 Taxi Booking System in LPU
+# 🚖 Taxi Booking System 
 
-A desktop-based **Taxi Booking System** designed for **Lovely Professional University (LPU)** using **Python, Tkinter**, and **SQLite3**. This system allows users to create accounts, log in securely, and book taxi rides between various campus locations. It calculates fare based on distance, car type, journey type, and other selected options.
+A desktop-based **Taxi Booking System** designed using **Python, Tkinter**, and **SQLite3**. This system allows users to create accounts, log in securely, and book taxi rides between various campus locations. It calculates fare based on distance, car type, journey type, and other selected options.
 
 ---
 
